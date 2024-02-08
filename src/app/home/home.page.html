@@ -1,20 +1,78 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="true" style="align-items: center;">
   <ion-toolbar>
+
+    <ion-button>
+      <ion-icon name="search"></ion-icon>
+    </ion-button>
     <ion-title>
-      Blank
+     Monte sua Festa
     </ion-title>
+
+    <ion-button>
+      <ion-icon name="notifications-outline"></ion-icon>
+    </ion-button>
+
+    <ion-button>
+      <ion-icon name="thumbs-up"></ion-icon>
+    </ion-button>
+
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-button fill="outline"  size="small">Adulto</ion-button>
+  <ion-button fill="outline"  size="small">Infantil</ion-button>
+  <ion-button fill="outline"  size="small">Tema</ion-button>
+  <ion-button fill="outline"  size="small">Acessorios</ion-button>
+
+   <ion-button expand="full">Casamento</ion-button>
+   <ion-button expand="full">Debutante</ion-button>
+   <ion-button expand="full">Chá de bebe</ion-button>
+   <ion-button expand="full">Bodas</ion-button>
+   <ion-button expand="full">Chá de cozinha</ion-button>
+   <ion-button expand="full">Churrasco</ion-button>
+   <ion-button expand="full">Fantasia</ion-button>
+
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar style="text-align: center;">
+    <!-- ----------------------------- -->
+  <ion-button  size="small">
+    <ion-icon name="cash"></ion-icon>
+    <ion-label padding>Orçamento</ion-label>
+  </ion-button>
+
+ <ion-button  size="small">
+  <ion-icon name="at-outline"></ion-icon>
+  <ion-label padding>Contato</ion-label>
+ </ion-button>
+
+ <ion-button  size="small">
+  <ion-icon name="information-circle-outline"></ion-icon>
+  <ion-label padding>Mais informações</ion-label>
+ </ion-button>
+  
+  <!-- -------------------------------- -->
+ <ion-grid>
+  <ion-row>
+    <ion-button color="success"  size="small">
+      <ion-icon  name="logo-facebook"></ion-icon>
+    </ion-button>
+  
+    <ion-button color="success"  size="small">
+      <ion-icon  name="logo-linkedin"></ion-icon>
+    </ion-button>
+  
+    <ion-button color="success"  size="small">
+      <ion-icon  name="logo-vimeo"></ion-icon>
+    </ion-button>
+  
+
+  </ion-row>
+ </ion-grid>
+
+
+  </ion-toolbar>
+</ion-footer>
